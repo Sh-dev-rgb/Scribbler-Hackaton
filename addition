@@ -1,0 +1,39 @@
+if(sentiment == 'happy'){
+    window.open("https://www.crazygames.com/", "_blank");
+    speak("Opening Games");
+}
+
+
+else if(sentiment == 'sad'){
+    speak("Why are you sad sir?")
+    speak("May I play some happy sounds for you")
+    if(message.includes("Ok") || message.includes("yes")){
+        window.open("https://www.youtube.com/watch?v=Y1xRFwLBpWw", "_blank");
+        speak("Opening Music");
+    }
+    else {
+        
+    }
+}
+
+
+else if(sentiment == 'angry'){
+    speak("Is the anger in your face just hiding the beauty of your smile? Because when you smile, the world lights up.");
+    speak("You can take some deep breaths and have some meditation.");
+    window.open("https://www.youtube.com/watch?v=gxvpOq8JlPI","_blank");
+    speak("Opening some music")
+}
+
+
+
+else if(sentiment == 'disgust'){
+    speak("Though some things or people may cause disgust, many more wonderful things exist in the world.")
+    speak("I will open some refreshing images")
+    window.open("https://stock.adobe.com/in/search?k=%22refreshing%20view%22","_blank");
+}
+
+
+else {
+
+
+}
